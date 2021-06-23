@@ -1,4 +1,5 @@
 import React from "react";
+//import amaz3 from "../images/amaz3.jpg";
 
 export const Products = () => {
   return (
@@ -32,13 +33,13 @@ export const Products = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="amaz1.jpg" className="d-block w-100" alt="..." />
+            <img src="images/amaz1.jpg" height="400" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="amaz2.jpg" className="d-block w-100" alt="..." />
+            <img src="images/amaz2.jpg" height="400" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="amaz3.jpg" className="d-block w-100" alt="..." />
+            <img src="images/amaz3.jpg" height="400" className="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -71,7 +72,7 @@ export const Products = () => {
         <div className="col">
           <div className="card h-100">
             <a href="elect.htm">
-              <img src="elec.jpg" className="card-img-top" alt="..." />
+              <img src="images/elec.jpg" height="200" className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <h5 className="card-title">Electronics</h5>
@@ -84,7 +85,7 @@ export const Products = () => {
         <div className="col">
           <div className="card h-100">
             <a href="access.htm">
-              <img src="access.jpg" className="card-img-top" alt="..." />
+              <img src="images/access.jpg" height="200" className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <h5 className="card-title">Accessories</h5>
@@ -97,7 +98,7 @@ export const Products = () => {
         <div className="col">
           <div className="card h-100">
             <a href="clothing.htm">
-              <img src="cloth.jpg" className="card-img-top" alt="..." />
+              <img src="images/cloth.jpg" height="200" className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <h5 className="card-title">Clothing</h5>
