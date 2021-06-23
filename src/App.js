@@ -8,7 +8,7 @@ function App() {
     <>
       <Header item="Categories" />
       <Products />
-      <Footer />
+
     </>
   );
 }
